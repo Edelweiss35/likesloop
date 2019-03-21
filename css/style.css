@@ -34,10 +34,13 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "solomon_sans_bold", sans-serif;
-  font-weight: 600;
+  font-family: "solomon_sans", sans-serif;
 }
 
+h7 {
+  font-family: "solomon_sans", sans-serif;
+  font-weight: 300;
+}
 /*=== MEDIA QUERY ===*/
 .no-padding {
   padding: 0 !important;
@@ -848,6 +851,7 @@ a:focus, a:hover {
 .contact-form textarea:hover,
 .contact-form #contact-submit:hover {
   border-color: #f0326b;
+  font-family: "solomon_sans", sans-serif;
 }
 
 .contact-form #contact-submit {
@@ -859,6 +863,7 @@ a:focus, a:hover {
   color: #fff;
   border-radius: 0;
   cursor: pointer;
+  font-family: "solomon_sans", sans-serif;
 }
 
 .contact-form textarea.form-control {
@@ -1886,8 +1891,8 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
 
 
 #support .btn_support{
-  background-color: #ff6f42;
-  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, #fb9972, #FF6F36);
+  border-radius: .65rem;
   color: #FFFFFF;
   width: 100%
 }
@@ -1971,6 +1976,7 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
   width: 80%;
   border-radius: 0.65rem;
   background-image: linear-gradient(100deg, #ff733d, #ff5c57);
+  font-family: "solomon_sans", sans-serif;
 }
 
 #checkout input{
@@ -2066,6 +2072,7 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
     width: 80%;
     margin-bottom: 20px;
     background-image: linear-gradient(100deg, #ff733d, #ff5c57);
+    font-family: "solomon_sans", sans-serif;
 }
 
 #about_slider .review_box{
