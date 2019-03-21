@@ -76,7 +76,7 @@ a:focus, a:hover {
 
 .btn-main, .btn-main-sm {
   background-color: #21D6BF;
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+  background-image: linear-gradient(100deg, #ff733d, #ff5c57);
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -1961,7 +1961,7 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
 
 #checkout .btn_support{
   border-radius: 0.65rem;
-    background-image: linear-gradient(to bottom right, #fb9972, #FF6F36);
+  background-image: linear-gradient(100deg, #ff733d, #ff5c57);
   color: #FFFFFF;
   width: 100%
 }
@@ -1970,7 +1970,7 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
   color: #FFFFFF;
   width: 80%;
   border-radius: 0.65rem;
-    background-image: linear-gradient(to bottom right, #fb9972, #FF6F36);
+  background-image: linear-gradient(100deg, #ff733d, #ff5c57);
 }
 
 #checkout input{
@@ -2065,7 +2065,7 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
     color: #FFFFFF;
     width: 80%;
     margin-bottom: 20px;
-    background-image: linear-gradient(to bottom right, #fb9972, #FF6F36);
+    background-image: linear-gradient(100deg, #ff733d, #ff5c57);
 }
 
 #about_slider .review_box{
