@@ -1,115 +1,192 @@
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
 
-@media only screen
-and (min-device-width : 480px)
-and (max-device-width : 768px) {
-/* STYLES GO HERE */
-	#footer{padding: 0;}
-	#about_slider .col-md-4{ text-align: center; }
-	#footer .bl{ border:0; }
-	#footer .col-md-5{border:0; }
-	#footer img{margin: 20px 0;}
-	#footer .twitter_link{position: relative;}
-	#checkout .pricing-item{width:100%;}
-	.hero-area {padding: 25px 0;}
-	.hero-area span {font-size: 25px;}
-	.hero-area h1{font-size: 32px;}
-	.navigation .navbar-nav > li > a {padding: 10px 15px !important;}
+	/* STYLES GO HERE */
+	#footer {
+		padding: 0;
+	}
+
+	#about_slider .col-md-4 {
+		text-align: center;
+	}
+
+	#footer .bl {
+		border: 0;
+	}
+
+	#footer .col-md-5 {
+		border: 0;
+	}
+
+	#footer img {
+		margin: 20px 0;
+	}
+
+	#footer .twitter_link {
+		position: relative;
+	}
+
+	#checkout .pricing-item {
+		width: 100%;
+	}
+
+	.hero-area {
+		padding: 25px 0;
+	}
+
+	.hero-area span {
+		font-size: 25px;
+	}
+
+	.hero-area h1 {
+		font-size: 32px;
+	}
+
+	.navigation .navbar-nav>li>a {
+		padding: 10px 15px !important;
+	}
 }
- 
+
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-/* STYLES GO HERE */
-	#about_slider .col-md-4{ text-align: center; }
-	.single-page-header.package_header span {font-size: 22px;}
-	.single-page-header h1{font-size: 24px;}
-	.single-page-header p{font-size: 13px;}
-	#footer{padding: 0;}
-	#footer .bl{ border:0; }
-	#footer img{margin: 25px 0;}
-	#footer .twitter_link{position: relative;}
-	#checkout .pricing-item{width:100%;}
-	.hero-area {padding: 25px 0;}
-	.hero-area span {font-size: 25px;}
-	.hero-area h1{font-size: 32px;}
-	.navigation .navbar-nav > li > a {padding: 10px 15px !important;}
-	#footer .constat-like-img{margin-left: 0px;}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	/* STYLES GO HERE */
+	#about_slider .col-md-4 {
+		text-align: center;
+	}
+
+	.single-page-header.package_header span {
+		font-size: 22px;
+	}
+
+	.single-page-header h1 {
+		font-size: 24px;
+	}
+
+	.single-page-header p {
+		font-size: 13px;
+	}
+
+	#footer {
+		padding: 0;
+	}
+
+	#footer .bl {
+		border: 0;
+	}
+
+	#footer img {
+		margin: 25px 0;
+	}
+
+	#footer .twitter_link {
+		position: relative;
+	}
+
+	#checkout .pricing-item {
+		width: 100%;
+	}
+
+	.hero-area {
+		padding: 25px 0;
+	}
+
+	.hero-area span {
+		font-size: 25px;
+	}
+
+	.hero-area h1 {
+		font-size: 32px;
+	}
+
+	.navigation .navbar-nav>li>a {
+		padding: 10px 15px !important;
+	}
+
+	#footer .constat-like-img {
+		margin-left: 0px;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 320px) {
-/* STYLES GO HERE */
-.most-common-resolution.brand {
-	padding: 30px 0;
+@media only screen and (min-width : 320px) {
+
+	/* STYLES GO HERE */
+	.most-common-resolution.brand {
+		padding: 30px 0;
+	}
+	#main_back img {
+		margin-top: 40px;
+	}
+	.col-md-12 {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
 }
-}
- 
 /* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
-/* STYLES GO HERE */
-.most-common-resolution.brand {
-	padding: 15px 0;
+@media only screen and (max-width : 425px) {
+
+	/* STYLES GO HERE */
+	.most-common-resolution.brand {
+		padding: 15px 0;
+	}
+
+	.navbar {
+		background-color: #5B1EE2;
+	}
 }
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+	/* STYLES GO HERE */
+	.most-common-resolution.brand {
+		padding: 15px 0;
+	}
+
+	.navbar {
+		background-color: #5B1EE2;
+	}
 }
- 
+
 /* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px) {
-/* STYLES GO HERE */
-#checkout .pricing-item{width: 100%;}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+	/* STYLES GO HERE */
+	#checkout .pricing-item {
+		width: 100%;
+	}
 }
- 
+
 /* iPads (landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-/* STYLES GO HERE */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	/* STYLES GO HERE */
 }
- 
+
 /* iPads (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
-/* STYLES GO HERE */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	/* STYLES GO HERE */
 }
- 
+
 /* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {
-/* STYLES GO HERE */
+@media only screen and (min-width : 1224px) {
+	/* STYLES GO HERE */
 }
- 
+
 /* Large screens ----------- */
-@media only screen
-and (min-width : 1824px) {
-/* STYLES GO HERE */
+@media only screen and (min-width : 1824px) {
+	/* STYLES GO HERE */
 }
- 
+
 /* iPhone 5 (portrait &amp; landscape)----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px) {
-/* STYLES GO HERE */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	/* STYLES GO HERE */
 }
- 
+
 /* iPhone 5 (landscape)----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : landscape) {
-/* STYLES GO HERE */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+	/* STYLES GO HERE */
 }
- 
+
 /* iPhone 5 (portrait)----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : portrait) {
-/* STYLES GO HERE */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+	/* STYLES GO HERE */
 }

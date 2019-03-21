@@ -21,7 +21,6 @@
     font-style: normal;
 
 }
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
 body {
   line-height: 1.4;
   font-family: "solomon_sans_light", sans-serif;
@@ -1774,7 +1773,7 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
 }
 .hero-area h1{ font-weight: 600;}
 .hero-area span{ font-size: 36px; }
-.btn-orangr { background-color: #FF6F36;  color: #FFFFFF; width: 220px;}
+.btn-orangr {     background-image: linear-gradient(to bottom right, #fb9972, #FF6F36);  color: #FFFFFF; width: 220px;}
 .btn-orangr:hover {color: #000000;font-weight: 600;} 
 
 #main_back {
@@ -1961,17 +1960,17 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
 }
 
 #checkout .btn_support{
-  background-color: #ff6f42;
-  border-radius: 5px;
+  border-radius: 0.65rem;
+    background-image: linear-gradient(to bottom right, #fb9972, #FF6F36);
   color: #FFFFFF;
   width: 100%
 }
 
 #checkout .btn_buynow{
-  background-color: #ff6f42;
-  border-radius: 5px;
   color: #FFFFFF;
-  width: 80%
+  width: 80%;
+  border-radius: 0.65rem;
+    background-image: linear-gradient(to bottom right, #fb9972, #FF6F36);
 }
 
 #checkout input{
@@ -2062,11 +2061,11 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
 }
 
 .checkout_absolute .btn_buynow{
-  background-color: #ff6f42;
-  border-radius: 5px;
-  color: #FFFFFF;
-  width: 80%;
-  margin-bottom:20px;
+  border-radius: 0.65rem;
+    color: #FFFFFF;
+    width: 80%;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to bottom right, #fb9972, #FF6F36);
 }
 
 #about_slider .review_box{
@@ -2141,7 +2140,7 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
     z-index: 9;
     width: 100%;
     background:transparent;
-    height: 80px;
+    height: 98px;
 }
 .single-page-header {padding: 100px;}
 .header.active {background-image: linear-gradient(to bottom right, #827AFF, #5B1EE2);}
@@ -2163,4 +2162,9 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
 
   .btn {
     padding: .775rem .75rem;
+    border-radius: .65rem;
+}
+
+.navbar-brand {
+  margin-right: 0rem;
 }
