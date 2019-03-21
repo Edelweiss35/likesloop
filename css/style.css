@@ -504,8 +504,8 @@ a:focus, a:hover {
 .navigation .navbar-nav > li > a {
   color: #FFFFFF;
   font-size: 15px;
-  line-height: 16px;
-  padding: 10px 20px !important;
+  line-height: 25px;
+  padding: 10px 30px !important;
   transition: .2s ease-in-out 0s;
 }
 
@@ -2030,7 +2030,7 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
 }
 
 .btn-get_start{
-  border:1px solid #FFF;
+  border: 0.1rem solid #886fed;
   border-radius: 35px;
 }
 
@@ -2147,7 +2147,6 @@ background-size: 100% 100%;display: block; letter-spacing: 1px;}
     z-index: 9;
     width: 100%;
     background:transparent;
-    height: 98px;
 }
 .single-page-header {padding: 100px;}
 .header.active {background-image: linear-gradient(to bottom right, #827AFF, #5B1EE2);}

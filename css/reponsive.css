@@ -1,4 +1,9 @@
 @media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
+	#main_back {
+		padding: 115px 0px;
+	}
+}
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
 
 	/* STYLES GO HERE */
 	#footer {
@@ -151,6 +156,10 @@
 	.navbar {
 		background-color: #5B1EE2;
 	}
+
+	#main_back {
+		padding-top: 215px;
+	}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -164,35 +173,5 @@
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-	/* STYLES GO HERE */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-	/* STYLES GO HERE */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
-	/* STYLES GO HERE */
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width : 1824px) {
-	/* STYLES GO HERE */
-}
-
-/* iPhone 5 (portrait &amp; landscape)----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
-	/* STYLES GO HERE */
-}
-
-/* iPhone 5 (landscape)----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
-	/* STYLES GO HERE */
-}
-
-/* iPhone 5 (portrait)----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
 	/* STYLES GO HERE */
 }
